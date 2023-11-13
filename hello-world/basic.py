@@ -1,4 +1,4 @@
-# print statment 
+# print statement 
 print("show this in the console")
 
 # Variables
