@@ -1,0 +1,22 @@
+---
+mode: ask
+description: |
+  This is a test for the Python for Everybody course. The test will cover various topics including
+data types, control structures, functions, and file handling in Python. You will be required
+  to write Python code to solve problems and answer questions based on the course material.
+questions:
+  - question: "What is the output of the following code snippet?"
+    code: |
+      def greet(name):
+          return f"Hello, {name}!"
+      print(greet("Alice"))
+    options:
+      - "Hello, Alice!"      - "Hello, Bob!"
+      - "Hello, World!"
+    answer: "Hello, Alice!"
+  - question: "Which of the following is a valid way to open a file in Python?"
+    options:
+      - "open('file.txt', 'r')"
+      - "open('file.txt', 'w')"     
+---
+Expected output and any relevant constraints for this task.
